@@ -43,3 +43,6 @@ And the `Highlighter` component will highlight all occurrences of search terms w
 | isSearchable     | Boolean |           | if you want to search(hightlight) character in word pass as true value or else false default value is false |
 | highlightedColor | String  |           | Apply any color you want to show in highlighted text Default value is yellow wrapper                        |
 | searchText       | String  |           | Searchable text value.                                                                                      |
+
+## License
+MIT License - fork, modify and use however you want.
