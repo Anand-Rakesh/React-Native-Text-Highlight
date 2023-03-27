@@ -61,6 +61,7 @@ yarn-error.log
 /ios/podfile.lock
 package-lock.json
 yarn.lock
+run.sh
 
 # Temporary files created by Metro to check the health of the file watcher
 .metro-health-check*
