@@ -29,7 +29,10 @@ import {TextHightlight} from 'react-native-text-highlight';
 
 And the `Highlighter` component will highlight all occurrences of search terms within the text:
 
-<img width="368" alt="screen shot 2015-12-19 at 8 23 43 am" src="https://cloud.githubusercontent.com/assets/29597/11914033/e3c319f6-a629-11e5-896d-1a5ce22c9ea2.png">
+<img width="368" alt="screen shot 2015-12-19 at 8 23 43 am" src="https://raw.githubusercontent.com/Anand-Rakesh/React-Native-Text-Highlight/main/Images/Simulator%20Screen%20Shot%20-%20iPhone%2014%20-%202023-03-27%20at%2019.19.05.png">
+<img width="368" alt="screen shot 2015-12-19 at 8 23 43 am" src="https://raw.githubusercontent.com/Anand-Rakesh/React-Native-Text-Highlight/main/Images/Simulator%20Screen%20Shot%20-%20iPhone%2014%20-%202023-03-27%20at%2019.19.13.png">
+<img width="368" alt="screen shot 2015-12-19 at 8 23 43 am" src="https://raw.githubusercontent.com/Anand-Rakesh/React-Native-Text-Highlight/main/Images/Simulator%20Screen%20Shot%20-%20iPhone%2014%20-%202023-03-27%20at%2019.19.17.png">
+<img width="368" alt="screen shot 2015-12-19 at 8 23 43 am" src="https://raw.githubusercontent.com/Anand-Rakesh/React-Native-Text-Highlight/main/Images/Simulator%20Screen%20Shot%20-%20iPhone%2014%20-%202023-03-27%20at%2019.19.23.png">
 
 ## Props
 
