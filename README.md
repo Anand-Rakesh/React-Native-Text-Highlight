@@ -1,8 +1,8 @@
 # React Native Text Highlight
 
-React Native component used to highlight character within a word. This is a port of [react-native-text-highlight](repo link).
+React Native component used to highlight character within a word. This is a port of [react-native-text-highlight](https://github.com/Anand-Rakesh/React-Native-Text-Highlight).
 
-Check out a [example](example repo link).
+Check out a [example](https://github.com/Anand-Rakesh/React-Native-Text-Highlight/tree/main/src/example).
 
 ## Installation
 
