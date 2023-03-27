@@ -1,7 +1,7 @@
 {
-  "name": "HighlightText",
+  "name": "react-native-text-highlight",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -34,5 +34,58 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "description": "React Native component used to highlight character within a word. This is a port of [react-native-text-highlight](https://github.com/Anand-Rakesh/React-Native-Text-Highlight).",
+  "main": "./src/index.tsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anand-Rakesh/React-Native-Text-Highlight.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "text",
+    "hightlight",
+    "color",
+    "text",
+    "hightlight",
+    "text",
+    "search",
+    "text",
+    "filter",
+    "text",
+    "highlight",
+    "filter",
+    "text",
+    "highlight",
+    "search",
+    "text",
+    "in",
+    "react",
+    "native",
+    "highlight",
+    "word",
+    "in",
+    "react",
+    "native",
+    "highlight",
+    "character",
+    "in",
+    "react",
+    "native",
+    "text",
+    "highlight",
+    "highlight",
+    "text",
+    "react",
+    "native",
+    "highlight",
+    "text"
+  ],
+  "author": "Anand_Rakesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Anand-Rakesh/React-Native-Text-Highlight/issues"
+  },
+  "homepage": "https://github.com/Anand-Rakesh/React-Native-Text-Highlight#readme"
 }
