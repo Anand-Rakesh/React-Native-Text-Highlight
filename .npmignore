@@ -259,3 +259,13 @@ scripts/
 
 # ignor images folder
 Images/
+
+index.js
+run.sh
+metro.config.js
+babel.config.js
+app.json
+Gemfile
+.ruby-version
+.prettierrc.js
+.node-version
