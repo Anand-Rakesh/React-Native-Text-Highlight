@@ -257,8 +257,5 @@ docsRNC/
 # eslint-rules/
 scripts/
 
-# include the .d.ts files
-!*.d.ts 
-
 # ignor images folder
 Images/
