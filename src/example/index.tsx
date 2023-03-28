@@ -7,11 +7,11 @@ import {
   TextInput,
   View,
 } from 'react-native';
-import {TextHightlight} from '../highlight-text';
+import {TextHighlight} from '../highlight-text';
 import {dynamicSearchWithMultiKeys} from '../utils';
 import USER_DATA from '../utils/user-data.json';
 
-export const ExampleTextHightlight = () => {
+export const ExampleTextHighlight = () => {
   const [arrData, setArrData] = useState(USER_DATA);
   const [searchText, setSearchText] = useState('');
 
@@ -19,12 +19,12 @@ export const ExampleTextHightlight = () => {
     return (
       <View key={String(_index)} style={styles.usersCardConainer}>
         <View style={styles.row}>
-          <TextHightlight
+          <TextHighlight
             text={`Name: `}
             isSearchable={false}
             style={styles.labelStyle}
           />
-          <TextHightlight
+          <TextHighlight
             text={`${item.firstName} ${item.lastName}`}
             isSearchable={true}
             highlightedColor={'yellow'}
@@ -33,12 +33,12 @@ export const ExampleTextHightlight = () => {
           />
         </View>
         <View style={styles.row}>
-          <TextHightlight
+          <TextHighlight
             text={`Phone Number: `}
             isSearchable={false}
             style={styles.labelStyle}
           />
-          <TextHightlight
+          <TextHighlight
             text={`${item.phone}`}
             isSearchable={true}
             highlightedColor={'yellow'}
@@ -47,12 +47,12 @@ export const ExampleTextHightlight = () => {
           />
         </View>
         <View style={styles.row}>
-          <TextHightlight
+          <TextHighlight
             text={`Age: `}
             isSearchable={false}
             style={styles.labelStyle}
           />
-          <TextHightlight
+          <TextHighlight
             text={`${item.age}`}
             isSearchable={true}
             highlightedColor={'yellow'}

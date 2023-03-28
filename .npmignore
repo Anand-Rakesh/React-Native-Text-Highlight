@@ -269,3 +269,5 @@ Gemfile
 .ruby-version
 .prettierrc.js
 .node-version
+.bundle
+node_modules

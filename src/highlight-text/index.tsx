@@ -4,7 +4,7 @@ import {TextProps} from './text-highlight-props';
 import _ from 'lodash';
 import {compareTwoStrings, getValidRegExpText} from '../utils/index';
 
-export function TextHightlight(props: TextProps) {
+export function TextHighlight(props: TextProps) {
   // grab the props
   const {
     text,
