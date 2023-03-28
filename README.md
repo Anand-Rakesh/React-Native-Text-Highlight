@@ -6,10 +6,10 @@ Check out a [example](https://github.com/Anand-Rakesh/React-Native-Text-Highligh
 
 ## Installation
 
-Using [npm](https://www.npmjs.com/package/react-native-text-highlight):
+Using [npm](https://www.npmjs.com/package/ar-react-native-text-highlight):
 
 ```
-npm i --save react-native-text-highlight
+npm i --save ar-react-native-text-highlight
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm i --save react-native-text-highlight
 To use it, just provide it a search text and searchable word with if searchable true or false.
 
 ```jsx
-import {TextHightlight} from 'react-native-text-highlight';
+import {TextHightlight} from 'ar-react-native-text-highlight';
 
 <TextHightlight
   text={`Anand Rakesh`}
@@ -45,4 +45,5 @@ And the `Highlighter` component will highlight all occurrences of search terms w
 | searchText       | String  |           | Searchable text value.                                                                                      |
 
 ## License
+
 MIT License - fork, modify and use however you want.
