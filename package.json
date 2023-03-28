@@ -50,7 +50,13 @@
     "search",
     "filter",
     "word",
-    "character"
+    "character",
+    "substring",
+    "matches",
+    "occurrences",
+    "highlighter",
+    "react-component",
+    "react-native"
   ],
   "author": "Anand_Rakesh",
   "license": "MIT",
