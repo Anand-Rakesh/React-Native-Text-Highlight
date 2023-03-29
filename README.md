@@ -12,6 +12,12 @@ Using [npm](https://www.npmjs.com/package/ar-react-native-text-highlight):
 npm i --save ar-react-native-text-highlight
 ```
 
+Using [yarn](https://www.npmjs.com/package/ar-react-native-text-highlight):
+
+```
+yarn add ar-react-native-text-highlight
+```
+
 ## Usage
 
 To use it, just provide it a search text and searchable word with if searchable true or false.
@@ -24,15 +30,19 @@ import {TextHighlight} from 'ar-react-native-text-highlight';
   isSearchable={true}
   highlightedColor={'yellow'}
   searchText={'Ra An'}
-/>
+/>;
 ```
 
 And the `Highlighter` component will highlight all occurrences of search terms within the text:
 
-<img width="368" alt="screen shot 2015-12-19 at 8 23 43 am" src="https://raw.githubusercontent.com/Anand-Rakesh/React-Native-Text-Highlight/main/Images/Simulator%20Screen%20Shot%20-%20iPhone%2014%20-%202023-03-27%20at%2019.19.05.png">
-<img width="368" alt="screen shot 2015-12-19 at 8 23 43 am" src="https://raw.githubusercontent.com/Anand-Rakesh/React-Native-Text-Highlight/main/Images/Simulator%20Screen%20Shot%20-%20iPhone%2014%20-%202023-03-27%20at%2019.19.13.png">
-<img width="368" alt="screen shot 2015-12-19 at 8 23 43 am" src="https://raw.githubusercontent.com/Anand-Rakesh/React-Native-Text-Highlight/main/Images/Simulator%20Screen%20Shot%20-%20iPhone%2014%20-%202023-03-27%20at%2019.19.17.png">
-<img width="368" alt="screen shot 2015-12-19 at 8 23 43 am" src="https://raw.githubusercontent.com/Anand-Rakesh/React-Native-Text-Highlight/main/Images/Simulator%20Screen%20Shot%20-%20iPhone%2014%20-%202023-03-27%20at%2019.19.23.png">
+<img width="368" alt="screen shot 2015-12-19 at 8 23 43 am" src="https://raw.githubusercontent.com/Anand-Rakesh/React-Native-Text-Highlight/main/Images/Simulator%20Screen%20Shot%20-%20iPhone%2014%20-%202023-03-27%20at%2019.19.05.png" style="
+    border: 3px solid red;">
+<img width="368" alt="screen shot 2015-12-19 at 8 23 43 am" src="https://raw.githubusercontent.com/Anand-Rakesh/React-Native-Text-Highlight/main/Images/Simulator%20Screen%20Shot%20-%20iPhone%2014%20-%202023-03-27%20at%2019.19.13.png" style="
+    border: 3px solid red;">
+<img width="368" alt="screen shot 2015-12-19 at 8 23 43 am" src="https://raw.githubusercontent.com/Anand-Rakesh/React-Native-Text-Highlight/main/Images/Simulator%20Screen%20Shot%20-%20iPhone%2014%20-%202023-03-27%20at%2019.19.17.png" style="
+    border: 3px solid red;">
+<img width="368" alt="screen shot 2015-12-19 at 8 23 43 am" src="https://raw.githubusercontent.com/Anand-Rakesh/React-Native-Text-Highlight/main/Images/Simulator%20Screen%20Shot%20-%20iPhone%2014%20-%202023-03-27%20at%2019.19.23.png" style="
+    border: 3px solid red;">
 
 ## Props
 
