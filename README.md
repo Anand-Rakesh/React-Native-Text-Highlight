@@ -17,14 +17,14 @@ npm i --save ar-react-native-text-highlight
 To use it, just provide it a search text and searchable word with if searchable true or false.
 
 ```jsx
-import {TextHightlight} from 'ar-react-native-text-highlight';
+import {TextHighlight} from 'ar-react-native-text-highlight';
 
-<TextHightlight
+<TextHighlight
   text={`Anand Rakesh`}
   isSearchable={true}
   highlightedColor={'yellow'}
   searchText={'Ra An'}
-/>;
+/>
 ```
 
 And the `Highlighter` component will highlight all occurrences of search terms within the text:
