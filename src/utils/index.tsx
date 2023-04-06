@@ -21,24 +21,15 @@ export function compareTwoStrings(firstString: string, secondString: string) {
 /**
  * get valid regular expression text
  * @param searchText search text
- * @param isFirstTimeCalled to avoid infinite loop if error occurs in first time
  */
-export function getValidRegExpText(
-  searchText: string,
-  isFirstTimeCalled = true, // to avoid infinite loop if error occurs in first time
-) {
+export function getValidRegExpText(searchText: string) {
   let reText: any = '';
   try {
-    reText = RegExp(searchText ?? '', 'gi');
-  } catch (error) {
-    // if error occurs then replace special characters with escape character and call the function again
-    if (isFirstTimeCalled && searchText) {
-      // replace special characters with escape character
-      searchText = searchText.replace(/([.?*+^$[\]\\(){}|-])/g, '\\$1');
-      // call the function again with new search text value and set isFirstTimeCalled to false to avoid infinite loop
-      reText = getValidRegExpText(searchText, false);
-    }
-  }
+    // replace special characters with escape character
+    // https://stackoverflow.com/questions/16168484/javascript-syntax-error-invalid-regular-expression
+    searchText = searchText.replace(/([.?*+^$[\]\\(){}|,-])/g, '\\$1');
+    reText = RegExp(searchText ?? '', 'i');
+  } catch (error) {}
   return reText;
 }
 
@@ -57,8 +48,7 @@ export function dynamicSearchWithMultiKeys(
         const str = String(_.get(obj, `${[key]}`, '')).toLowerCase();
         if (str) {
           // verify if search text is included in the string
-          const isMatched =
-            str.includes(searchTextVal) || searchTextVal.includes(str);
+          const isMatched = str.includes(searchTextVal);
           return isMatched;
         } else {
           return false;

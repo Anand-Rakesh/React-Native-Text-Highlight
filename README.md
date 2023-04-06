@@ -34,6 +34,7 @@ import {TextHighlight} from 'ar-react-native-text-highlight';
 ```
 
 And the `Highlighter` component will highlight all occurrences of search terms within the text:
+Note - This is all the dummy data which are used in example.
 
 <img width="368" alt="screen shot 2015-12-19 at 8 23 43 am" src="https://raw.githubusercontent.com/Anand-Rakesh/React-Native-Text-Highlight/main/Images/Simulator%20Screen%20Shot%20-%20iPhone%2014%20-%202023-03-27%20at%2019.19.05.png" style="
     border: 3px solid red;">
